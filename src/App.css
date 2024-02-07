@@ -190,6 +190,10 @@ main {
   align-items: center;
 }
 
+#testimonials .div-text.white {
+  margin-top: 0rem;
+}
+
 #testimonials-videos iframe {
   border-radius: 1.5rem;
   width: 400px;
