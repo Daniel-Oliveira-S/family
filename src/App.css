@@ -192,6 +192,8 @@ main {
 
 #testimonials-videos iframe {
   border-radius: 1.5rem;
+  width: 400px;
+  height: 200px;
 }
 
 .prints {
