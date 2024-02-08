@@ -238,6 +238,7 @@
     align-items: center;
     gap: 2rem;
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   .pattern {
@@ -269,6 +270,7 @@
 
   .CTA.purple {
     background: #49089f;
+    margin-top: -1rem;
   }
 
   .bonus-flex {
