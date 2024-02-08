@@ -326,11 +326,9 @@ main {
   color: #4633af;
   width: 400px;
 }
-
 .div-img .benefit {
-  margin: 1rem auto;
+  margin: 0 1rem;
 }
-
 .div-img-content {
   display: flex;
   justify-content: center;
@@ -542,7 +540,7 @@ main {
 #disc-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8rem;
+  gap: 4rem;
 }
 
 .gear {
@@ -587,12 +585,26 @@ main {
   left: 2%;
 }
 
-#compare {
+.div-img.grad {
+  background: linear-gradient(90deg, #9346c6 0%, #4a9ec2 100%);
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.div-img.grad h1 {
+  color: #fff;
+}
+.div-img.grad .benefit,
+.div-img.grad .benefit p {
+  color: #fff;
+}
+
+.div #compare {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #9346c6 0%, #4a9ec2 100%);
+  background: #fff;
   color: #fff;
   width: 100%;
   margin: 2rem 0 0;
@@ -605,7 +617,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #fff;
+  color: #000;
 }
 
 #compare .div-text h1 {
@@ -633,6 +645,7 @@ main {
   text-align: end;
   gap: 5rem;
   margin-top: 12rem;
+  color: #000;
 }
 
 #compare-titles h2 {
@@ -712,6 +725,40 @@ main {
 #compare .CTA:hover {
   background: #50a2ff;
   color: #fff;
+}
+
+#support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  background: linear-gradient(90deg, #9346c6 0%, #4a9ec2 100%);
+}
+
+.support-content {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: #ffffffb6;
+  backdrop-filter: blur(10px);
+  padding: 2rem 3.5rem;
+  border-radius: 1.5rem;
+  height: 600px;
+  width: 400px;
+  text-align: center;
 }
 
 #bonus {
@@ -867,7 +914,7 @@ span {
 #who-content > img {
   width: 430px;
   position: absolute;
-  top: 4rem;
+  top: 15rem;
   left: 19rem;
   z-index: 101;
 }
@@ -877,7 +924,6 @@ span {
     width: 420px;
     position: absolute;
     left: 1rem;
-    top: 2rem;
   }
   .ilumination:nth-child(1) {
     position: absolute;

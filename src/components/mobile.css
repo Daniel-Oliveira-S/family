@@ -149,6 +149,7 @@
 
   #points-content .CTA {
     margin-bottom: 11rem;
+    margin-top: -2rem;
   }
 
   .gear {
@@ -164,7 +165,7 @@
   }
 
   .linear img {
-    margin-top: -16rem;
+    margin-top: -14rem;
   }
   .linear .div-text {
     color: #fff;
@@ -198,6 +199,7 @@
     font-size: 1rem;
     font-weight: 400;
     width: 250px;
+    text-align: start;
   }
 
   .div-text h1 {
@@ -240,6 +242,10 @@
 
   .pattern {
     background: #fff;
+  }
+
+  .pattern p {
+    color: #fff;
   }
 
   .pattern:nth-child(2) p {
@@ -341,7 +347,7 @@
 
   .who-txt h1 {
     font-size: 1.5rem;
-    margin-top: 15rem;
+    margin-top: 18rem;
   }
   #FAQ-content {
     margin-top: -8rem;
@@ -385,6 +391,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .price img {
+    width: 300px;
+  }
   .downsell {
     margin-top: 5rem;
   }
@@ -400,12 +410,10 @@
     margin-bottom: 2rem;
   }
 
-  .bank {
-    margin-bottom: 2rem;
-  }
   .selo {
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 12rem;
+    width: 50%;
   }
 
   .pink {
@@ -439,6 +447,11 @@
     text-align: center;
   }
   .swiper-pagination-bullet-active {
-    background-color: #9346c6 !important;
+    background-color: #9335d1 !important;
+  }
+  .topic {
+    width: 380px;
+    margin: 4rem auto;
+    height: 580px;
   }
 }

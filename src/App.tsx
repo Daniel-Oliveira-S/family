@@ -32,7 +32,18 @@ import test4 from "./assets/test-4.png";
 import mobileTop from "./assets/mobile-top.svg";
 import "./components/mobile.css";
 import { Slider } from "./components/slider";
-
+import { CarouselTypes } from "./components/carousel";
+import message from "../public/Vector.svg";
+import drum from "../public/Vector-1.svg";
+import heart from "../public/Vector-2.svg";
+import people from "../public/Vector-3.svg";
+import bookSmile from "../public/bookSmile.jpg";
+import familiaLinda from "../public/familiaLinda.jpg";
+import guitarSmile from "../public/guitarSmile.jpg";
+import smiles from "../public/smiles.jpg";
+import teacher from "../public/teacher.jpg";
+import teclado from "../public/teclado.jpg";
+import baby from "../public/baby.png";
 function App() {
   const [mobile, setMobile] = useState(false);
 
@@ -323,7 +334,7 @@ function App() {
             {mobile ? (
               <div id="points-img">
                 <div className="point">
-                  <img src={kids} alt="" />
+                  <img src={teacher} alt="" />
                   <p>
                     Educar e comunicar-se efetivamente com crianças pequenas é
                     um desafio constante para pais e educadores, muitas vezes
@@ -331,7 +342,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={bookKids} alt="" />
+                  <img src={bookSmile} alt="" />
                   <p>
                     O desenvolvimento na primeira infância é crucial para o
                     bem-estar e sucesso futuro das crianças. As experiências
@@ -339,7 +350,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={guitar} alt="" />
+                  <img src={guitarSmile} alt="" />
                   <p>
                     A música é uma ferramenta poderosa no desenvolvimento
                     cognitivo, emocional e social das crianças, além de ser um
@@ -347,7 +358,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={family} alt="" />
+                  <img src={smiles} alt="" />
                   <p>
                     Abordagens tradicionais de educação e disciplina não são
                     eficazes para 100% das crianças. Por isso a necessidade de
@@ -356,7 +367,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={familyHug} alt="" />
+                  <img src={familiaLinda} alt="" />
                   <p>
                     O envolvimento ativo dos pais no processo educativo é
                     fundamental para reforçar o aprendizado e fortalecer os
@@ -364,7 +375,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={keyboard} alt="" />
+                  <img src={teclado} alt="" />
                   <p>
                     Embora muitos pais reconheçam a importância da música, é
                     comum se sentirem constrangidos pela falta de recursos,
@@ -381,7 +392,7 @@ function App() {
                   </p>
                 </div>{" "}
                 <div className="point">
-                  <img src={colored} alt="" />
+                  <img src={baby} alt="" />
                   <p>
                     A boa notícia é que você não precisa ter nenhum conhecimento
                     musical para iniciar a educação musical do seu filho!
@@ -531,7 +542,7 @@ function App() {
               </div>
             </div>
             <a
-              className="CTA"
+              className="CTA disc"
               href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
             >
               Quero transformar a educação do meu filho com música
@@ -566,7 +577,7 @@ function App() {
             </div>
           </div>
         ) : (
-          <div className="div-img">
+          <div className="div-img grad">
             <div className="div-img-content">
               <div className="div-text">
                 <h1>
@@ -599,7 +610,10 @@ function App() {
               <div className="pattern trad">
                 <img src={cross} alt="" />
                 <h1>Educação tradicional</h1>
-                <p>Focada em regras e disciplina inflexíveis.</p>
+                <p>
+                  Abordagens Disciplinar focada em regras e disciplinas
+                  inflexíveis.
+                </p>
                 <p>Métodos padronizados, pouco personalizados.</p>
                 <p>
                   Comunicação unidirecional e autoritária (de cima para baixo).
@@ -760,6 +774,63 @@ function App() {
               Quero transformar a educação do meu filho com música
             </a>
           </div>
+        </section>
+        <section id="support">
+          {mobile ? (
+            <CarouselTypes />
+          ) : (
+            <div className="support-content">
+              <div className="topic">
+                <img src={message} alt="" />
+                <h3>Suporte ao vivo semanal comigo</h3>
+                <p>
+                  Toda semana vamos nos reunir em uma sala do zoom para te guiar
+                  e te ajudar. Em cada encontro vamos explorar um tema diferente
+                  e uma nova ferramenta. E, é claro, também teremos um momento
+                  para tirar todas as suas dúvidas.
+                </p>
+              </div>{" "}
+              <div className="topic">
+                <img src={drum} alt="" />
+                <h3>
+                  Atividades práticas musicais para a sua família se manter
+                  conectada.
+                </h3>
+                <p>
+                  As atividades práticas musicais transcendem as palavras,
+                  promovendo memórias compartilhadas, aliviando o estresse e
+                  criando um ambiente relaxado e divertido.
+                </p>
+              </div>{" "}
+              <div className="topic">
+                <img src={heart} alt="" />
+                <h3>Caixa de Ferramentas da disciplina positiva.</h3>
+                <p>
+                  A disciplina positiva tem um papel crucial no desenvolvimento
+                  integral dos pequenos. Contribui para a formação de uma
+                  autoimagem positiva, fortalece a confiança em suas
+                  habilidades, promove uma comunicação empática e afinada, reduz
+                  comportamentos desafiadores, estimula a autonomia e
+                  responsabilidade infantil, resultando em um ambiente familiar
+                  positivo e altamente encorajador.
+                </p>
+              </div>{" "}
+              <div className="topic">
+                <img src={people} alt="" />
+                <h3>Comunidade das Famílias Orquestradas no whatsapp.</h3>
+                <p>
+                  Ao ingressar no treinamento, você se tornará parte da
+                  Comunidade das Famílias Orquestradas no WhatsApp. Nesse grupo
+                  exclusivo de alunos, você poderá compartilhar experiências com
+                  outras mães e pais, esclarecer dúvidas e participar de um
+                  espaço colaborativo para trocar vivências e insights com
+                  pessoas que enfrentam desafios semelhantes aos seus. Além
+                  disso, terá acesso a materiais complementares exclusivos para
+                  enriquecer ainda mais sua jornada.
+                </p>
+              </div>
+            </div>
+          )}
         </section>
         <section id="bonus">
           <div id="bonus-content">
@@ -1070,7 +1141,7 @@ function App() {
               >
                 Quero transformar a educação do meu filho com música
               </a>
-              <img src={bank} width={400} alt="" />
+              <img src={bank} width={400} alt="" className="bank" />
             </div>
           )}
           {mobile ? (
