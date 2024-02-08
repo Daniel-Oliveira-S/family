@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -8rem;
+    margin-top: -12rem;
     margin-bottom: 2rem;
     padding: 0 0.65rem;
   }
@@ -136,6 +136,8 @@
 
   #disc h1 {
     text-align: center;
+    font-size: 1.35rem;
+    width: 250px;
   }
   #disc-grid {
     display: flex;
@@ -192,9 +194,32 @@
     width: 300px;
     font-size: 1rem;
   }
-  .linear .benefit p {
+  .benefit p {
     font-size: 1rem;
     font-weight: 400;
+    width: 250px;
+  }
+
+  .div-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .linear {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .linear .benefit p {
+    color: #fff;
+  }
+
+  .benefit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
   }
   .linear .div-text p {
     font-weight: 600;
@@ -278,6 +303,10 @@
     font-size: 1.25rem;
   }
 
+  .repeat {
+    margin-bottom: 6rem;
+  }
+
   #who {
     display: flex;
     flex-direction: column;
@@ -299,8 +328,8 @@
     margin-left: 1.4rem;
     position: absolute;
     top: 1;
-    bottom: 85%;
-    width: 250px;
+    bottom: 77%;
+    width: 400px;
   }
   .who-txt {
     display: flex;
@@ -312,7 +341,7 @@
 
   .who-txt h1 {
     font-size: 1.5rem;
-    margin-top: 12rem;
+    margin-top: 15rem;
   }
   #FAQ-content {
     margin-top: -8rem;
@@ -344,8 +373,9 @@
   }
 
   .checkout-text p {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 24px;
+    text-align: center;
   }
 
   .price {
@@ -374,7 +404,8 @@
     margin-bottom: 2rem;
   }
   .selo {
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 12rem;
   }
 
   .pink {
@@ -383,7 +414,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
   }
 
   .pink h1 {
@@ -406,5 +437,8 @@
 
   .div-img h3 {
     text-align: center;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #9346c6 !important;
   }
 }

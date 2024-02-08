@@ -31,6 +31,7 @@ import test3 from "./assets/test-3.png";
 import test4 from "./assets/test-4.png";
 import mobileTop from "./assets/mobile-top.svg";
 import "./components/mobile.css";
+import { Slider } from "./components/slider";
 
 function App() {
   const [mobile, setMobile] = useState(false);
@@ -59,7 +60,7 @@ function App() {
                     Qualquer pessoa pode educar seu filho utilizando essa
                     ferramenta, mesmo que não tenha nenhuma habilidade musical
                   </p>
-                  <a href="">
+                  <a href="#video-sell">
                     <p>
                       Assista ao vídeo abaixo e aprenda 3 práticas valiosas:
                     </p>
@@ -103,7 +104,7 @@ function App() {
                     Qualquer pessoa pode educar seu filho utilizando essa
                     ferramenta, mesmo que não tenha nenhuma habilidade musical
                   </p>
-                  <a href="">
+                  <a href="#video-sell">
                     <p>
                       Assista ao vídeo abaixo e aprenda 3 práticas valiosas:
                     </p>
@@ -146,6 +147,7 @@ function App() {
               src="https://www.youtube.com/embed/u-bPR4OKJvw"
               title="Video de vendas Familias Orquestradas"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              id="video-sell"
             ></iframe>
             <a
               className="CTA top"
@@ -172,6 +174,11 @@ function App() {
             <iframe
               src="https://www.youtube.com/embed/lhA8uwHAEcI"
               title="Depoimento Amanda"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+            <iframe
+              src="https://www.youtube.com/embed/9LRMXTw7T3k"
+              title="Depoimento Patricia Macedo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           </div>
@@ -219,53 +226,57 @@ function App() {
         <section id="solutions">
           <div id="solutions-content">
             <h1>Solucões imediatas para Seu Dia a Dia</h1>
-            <div id="stick-notes">
-              <div className="notes">
-                <Check className="badge" />
-                <h3>Alívio rápido de Tensões Familiares</h3>
-                <p>
-                  Práticas Musicais Simples: Descubra como atividades musicais
-                  fáceis e divertidas podem acalmar ambientes tensos, gerando
-                  alegria instantânea na sua casa.
-                  <br />
-                  <br />
-                  Comunicação Efetiva: Explore técnicas de comunicação que podem
-                  ser aplicadas imediatamente, melhorando a interação com seu
-                  filho e reduzindo mal-entendidos e frustrações.
-                </p>
+            {mobile ? (
+              <Slider />
+            ) : (
+              <div id="stick-notes">
+                <div className="notes">
+                  <Check className="badge" />
+                  <h3>Alívio rápido de Tensões Familiares</h3>
+                  <p>
+                    Práticas Musicais Simples: Descubra como atividades musicais
+                    fáceis e divertidas podem acalmar ambientes tensos, gerando
+                    alegria instantânea na sua casa.
+                    <br />
+                    <br />
+                    Comunicação Efetiva: Explore técnicas de comunicação que
+                    podem ser aplicadas imediatamente, melhorando a interação
+                    com seu filho e reduzindo mal-entendidos e frustrações.
+                  </p>
+                </div>
+                <div className="notes">
+                  <Check className="badge" />
+                  <h3>Gestão de Comportamento</h3>
+                  <p>
+                    Disciplina Positiva ao Alcance: Implemente estratégias
+                    práticas de disciplina positiva que proporcionam resultados
+                    visíveis no comportamento da criança, sem a necessidade de
+                    recorrer a métodos punitivos.
+                    <br />
+                    <br />
+                    Conexão e Empatia Instantâneas: Utilize a música para criar
+                    uma conexão imediata com seu filho, facilitando a
+                    compreensão mútua e o respeito.
+                  </p>
+                </div>
+                <div className="notes">
+                  <Check className="badge" />
+                  <h3>Resultados na Rotina Diária</h3>
+                  <p>
+                    Rotina Harmoniosa com Música: Integre a música à sua rotina
+                    diária, transformando momentos como a hora de dormir, tomar
+                    banho e escovar os dentes em experiências mais suaves e
+                    tranquilas.
+                    <br />
+                    <br />
+                    Momentos de Aprendizado Divertidos: Transforme desafios
+                    educacionais em experiências de aprendizado envolventes,
+                    lúdicas e eficazes, gerando interesse e entusiasmo imediatos
+                    nas criança
+                  </p>
+                </div>
               </div>
-              <div className="notes">
-                <Check className="badge" />
-                <h3>Gestão de Comportamento</h3>
-                <p>
-                  Disciplina Positiva ao Alcance: Implemente estratégias
-                  práticas de disciplina positiva que proporcionam resultados
-                  visíveis no comportamento da criança, sem a necessidade de
-                  recorrer a métodos punitivos.
-                  <br />
-                  <br />
-                  Conexão e Empatia Instantâneas: Utilize a música para criar
-                  uma conexão imediata com seu filho, facilitando a compreensão
-                  mútua e o respeito.
-                </p>
-              </div>
-              <div className="notes">
-                <Check className="badge" />
-                <h3>Resultados na Rotina Diária</h3>
-                <p>
-                  Rotina Harmoniosa com Música: Integre a música à sua rotina
-                  diária, transformando momentos como a hora de dormir, tomar
-                  banho e escovar os dentes em experiências mais suaves e
-                  tranquilas.
-                  <br />
-                  <br />
-                  Momentos de Aprendizado Divertidos: Transforme desafios
-                  educacionais em experiências de aprendizado envolventes,
-                  lúdicas e eficazes, gerando interesse e entusiasmo imediatos
-                  nas criança
-                </p>
-              </div>
-            </div>
+            )}
             <a
               className="CTA"
               href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
@@ -275,7 +286,7 @@ function App() {
           </div>
         </section>
         <div className="div-img">
-          <p>
+          <p className="title">
             Transforme o aprendizado do seu filho agora! Clique em{" "}
             <strong>
               "Quero transformar a educação do meu filho com música"
@@ -527,7 +538,6 @@ function App() {
             </a>
           </div>
         </section>
-
         {mobile ? (
           <div className="div-img linear">
             <div className="div-img-content ">
@@ -583,7 +593,6 @@ function App() {
             </div>
           </div>
         )}
-
         <section id="compare">
           {mobile ? (
             <div id="compare-content">
@@ -752,7 +761,6 @@ function App() {
             </a>
           </div>
         </section>
-
         <section id="bonus">
           <div id="bonus-content">
             <h1 className="see">Veja também os bônus que preparei para você</h1>
@@ -835,7 +843,6 @@ function App() {
             </div>
           </div>
         </section>
-
         <section id="who" className="who">
           {mobile ? (
             <div id="who-cont" className="who content">
@@ -928,11 +935,10 @@ function App() {
             </div>
           )}
         </section>
-
         <section id="FAQ">
+          <h1>Dúvidas frequentes</h1>
           <Acordion />
         </section>
-
         <section id="chekout">
           <div id="checkout-content">
             <div id="objectives">
@@ -996,7 +1002,6 @@ function App() {
             </div>
           </div>
         </section>
-
         <div id="checkout-form">
           <div className="checkout-text">
             {mobile ? (
@@ -1093,8 +1098,13 @@ function App() {
             <SealCheck weight="fill" className="seal" color="#e4007f" />
             <p>Garantia de 14 dias para a sua tranquilidade</p>
           </div>
-        </div>
-
+        </div>{" "}
+        <a
+          className="CTA top"
+          href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+        >
+          Quero transformar a educação do meu filho com música
+        </a>
         <footer>
           <strong>Aviso Legal:</strong>
           <p>
