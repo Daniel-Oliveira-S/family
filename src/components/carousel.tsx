@@ -6,6 +6,7 @@ import message from "../../public/Vector.svg";
 import drum from "../../public/Vector-1.svg";
 import heart from "../../public/Vector-2.svg";
 import people from "../../public/Vector-3.svg";
+import badge from "../assets/certified.svg";
 
 export function CarouselTypes() {
   return (
@@ -71,6 +72,23 @@ export function CarouselTypes() {
             trocar vivências e insights com pessoas que enfrentam desafios
             semelhantes aos seus. Além disso, terá acesso a materiais
             complementares exclusivos para enriquecer ainda mais sua jornada.
+          </p>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="topic">
+          <img src={badge} alt="" />
+          <h3>Certificado Famílias Orquestradas</h3>
+          <p>
+            Este reconhecimento celebra sua decisão de transformar sua casa em
+            um lar harmonioso, proporcionando um passaporte para o belo mundo da
+            orquestração das ideias. Na jornada familiar, todos descobrem o
+            prazer de se expressar por meio dos sons, contribuindo para um
+            ambiente divertido onde música, brincadeiras e comunicação fluem em
+            perfeita sintonia. Ao concluir o treinamento e obter o certificado,
+            a melodia da aprendizagem ressoará não apenas nas canções, mas
+            também nos corações de todos na sua família, criando laços e
+            memórias eternas.
           </p>
         </div>
       </SwiperSlide>

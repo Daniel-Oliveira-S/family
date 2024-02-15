@@ -44,6 +44,7 @@ import smiles from "../public/smiles.jpg";
 import teacher from "../public/teacher.jpg";
 import teclado from "../public/teclado.jpg";
 import baby from "../public/baby.png";
+import badge from "./assets/certified.svg";
 function App() {
   const [mobile, setMobile] = useState(false);
 
@@ -88,18 +89,18 @@ function App() {
                     </div>
                     <div id="tips-text">
                       <p className="tip-text">
-                        Desvende como usar a música para promover uma
-                        comunicação empática e assertiva, criando um ambiente
+                        Descubra como ter uma comunicação empática e assertiva
+                        com seu filho, usando a música para criar um ambiente
                         familiar harmonioso e compreensivo.
                       </p>
                       <p className="tip-text">
-                        Personalize a educação conforme o temperamento da
-                        criança, aplicando disciplina positiva para incentivar
-                        autonomia e responsabilidade.
+                        Personalize a educação do seu filho conforme o
+                        temperamento particular dele, aplicando disciplina
+                        positiva para promover autonomia e responsabilidade.
                       </p>
                       <p className="tip-text">
                         Explore como a música pode impulsionar o desenvolvimento
-                        cognitivo, emocional e social das crianças, gerando
+                        cognitivo, emocional e social dos seus filhos, gerando
                         memórias positivas e fortalecendo habilidades essencias
                         para a vida.
                       </p>
@@ -132,18 +133,18 @@ function App() {
                     </div>
                     <div id="tips-text">
                       <p className="tip-text">
-                        Desvende como usar a música para promover uma
-                        comunicação empática e assertiva, criando um ambiente
+                        Descubra como ter uma comunicação empática e assertiva
+                        com seu filho, usando a música para criar um ambiente
                         familiar harmonioso e compreensivo.
                       </p>
                       <p className="tip-text">
-                        Personalize a educação conforme o temperamento da
-                        criança, aplicando disciplina positiva para incentivar
-                        autonomia e responsabilidade.
+                        Personalize a educação do seu filho conforme o
+                        temperamento particular dele, aplicando disciplina
+                        positiva para promover autonomia e responsabilidade.
                       </p>
                       <p className="tip-text">
                         Explore como a música pode impulsionar o desenvolvimento
-                        cognitivo, emocional e social das crianças, gerando
+                        cognitivo, emocional e social dos seus filhos, gerando
                         memórias positivas e fortalecendo habilidades essencias
                         para a vida.
                       </p>
@@ -243,31 +244,12 @@ function App() {
               <div id="stick-notes">
                 <div className="notes">
                   <Check className="badge" />
-                  <h3>Alívio rápido de Tensões Familiares</h3>
-                  <p>
-                    Práticas Musicais Simples: Descubra como atividades musicais
-                    fáceis e divertidas podem acalmar ambientes tensos, gerando
-                    alegria instantânea na sua casa.
-                    <br />
-                    <br />
-                    Comunicação Efetiva: Explore técnicas de comunicação que
-                    podem ser aplicadas imediatamente, melhorando a interação
-                    com seu filho e reduzindo mal-entendidos e frustrações.
-                  </p>
-                </div>
-                <div className="notes">
-                  <Check className="badge" />
                   <h3>Gestão de Comportamento</h3>
                   <p>
                     Disciplina Positiva ao Alcance: Implemente estratégias
                     práticas de disciplina positiva que proporcionam resultados
-                    visíveis no comportamento da criança, sem a necessidade de
+                    visíveis no comportamento do seu filho, sem a necessidade de
                     recorrer a métodos punitivos.
-                    <br />
-                    <br />
-                    Conexão e Empatia Instantâneas: Utilize a música para criar
-                    uma conexão imediata com seu filho, facilitando a
-                    compreensão mútua e o respeito.
                   </p>
                 </div>
                 <div className="notes">
@@ -276,14 +258,17 @@ function App() {
                   <p>
                     Rotina Harmoniosa com Música: Integre a música à sua rotina
                     diária, transformando momentos como a hora de dormir, tomar
-                    banho e escovar os dentes em experiências mais suaves e
-                    tranquilas.
-                    <br />
-                    <br />
-                    Momentos de Aprendizado Divertidos: Transforme desafios
-                    educacionais em experiências de aprendizado envolventes,
-                    lúdicas e eficazes, gerando interesse e entusiasmo imediatos
-                    nas criança
+                    banho e escovar os dentes do seu filho, em experiências mais
+                    suaves e tranquilas.
+                  </p>
+                </div>
+                <div className="notes">
+                  <Check className="badge" />
+                  <h3>Momento de aprendizado divertido</h3>
+                  <p>
+                    Transforme desafios educacionais em experiências de
+                    aprendizados envolventes, divertidos e eficazes, gerando
+                    interesse e entusiasmo imediatos nos seus filhos.
                   </p>
                 </div>
               </div>
@@ -827,6 +812,22 @@ function App() {
                   pessoas que enfrentam desafios semelhantes aos seus. Além
                   disso, terá acesso a materiais complementares exclusivos para
                   enriquecer ainda mais sua jornada.
+                </p>
+              </div>
+              <div className="topic">
+                <img src={badge} alt="" />
+                <h3>Certificado Famílias Orquestradas</h3>
+                <p>
+                  Este reconhecimento celebra sua decisão de transformar sua
+                  casa em um lar harmonioso, proporcionando um passaporte para o
+                  belo mundo da orquestração das ideias. Na jornada familiar,
+                  todos descobrem o prazer de se expressar por meio dos sons,
+                  contribuindo para um ambiente divertido onde música,
+                  brincadeiras e comunicação fluem em perfeita sintonia. Ao
+                  concluir o treinamento e obter o certificado, a melodia da
+                  aprendizagem ressoará não apenas nas canções, mas também nos
+                  corações de todos na sua família, criando laços e memórias
+                  eternas.
                 </p>
               </div>
             </div>
