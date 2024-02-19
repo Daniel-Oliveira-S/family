@@ -332,13 +332,15 @@
     width: 100%;
     position: relative;
   }
+
   #who-cont img {
     margin-left: 1.4rem;
     position: absolute;
     top: 1;
-    bottom: 77%;
+    bottom: 75%;
     width: 400px;
   }
+
   .who-txt {
     display: flex;
     flex-direction: column;
@@ -455,5 +457,15 @@
     width: 380px;
     margin: 4rem auto;
     height: 600px;
+  }
+}
+
+@media screen and (min-width: 834px) {
+  #who-cont img {
+    margin-left: 1.4rem;
+    position: absolute;
+    top: 1;
+    bottom: 65%;
+    width: 400px;
   }
 }

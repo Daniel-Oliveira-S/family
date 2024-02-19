@@ -919,7 +919,7 @@ span {
   overflow-y: hidden;
 }
 
-#who-content > img {
+#who-content img {
   width: 430px;
   position: absolute;
   top: 15rem;
@@ -945,6 +945,14 @@ span {
     height: 60%;
     transform: rotate(45deg);
     margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 801px) {
+  #who-content > img {
+    width: 320px;
+    position: absolute;
+    left: 1rem;
   }
 }
 .who-text {
