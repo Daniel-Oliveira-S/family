@@ -163,7 +163,7 @@ function App() {
             ></iframe>
             <a
               className="CTA top"
-              href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+              href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
             >
               Quero transformar a educação do meu filho com música
             </a>
@@ -228,7 +228,7 @@ function App() {
             </div>
           </div>
           <a
-            href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+            href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
             className="CTA"
           >
             Quero transformar a educação do meu filho com música
@@ -275,7 +275,7 @@ function App() {
             )}
             <a
               className="CTA"
-              href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+              href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
             >
               Quero transformar a educação do meu filho com música
             </a>
@@ -528,7 +528,7 @@ function App() {
             </div>
             <a
               className="CTA disc"
-              href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+              href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
             >
               Quero transformar a educação do meu filho com música
             </a>
@@ -650,7 +650,7 @@ function App() {
                 </p>
               </div>
               <a
-                href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+                href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
                 className="CTA purple"
               >
                 Quero transformar a educação do meu filho com música
@@ -753,7 +753,7 @@ function App() {
             </div>
 
             <a
-              href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+              href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
               className="CTA"
             >
               Quero transformar a educação do meu filho com música
@@ -889,7 +889,7 @@ function App() {
             </div>
           </div>
           <a
-            href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+            href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
             className="CTA"
           >
             Quero transformar a educação do meu filho com música
@@ -1116,7 +1116,7 @@ function App() {
                 ou <strong>R$697,00</strong> à vista
               </p>
               <a
-                href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+                href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
                 className="CTA checkout"
               >
                 Quero transformar a educação do meu filho com música
@@ -1137,7 +1137,7 @@ function App() {
                 ou <strong>R$697,00</strong> à vista
               </p>
               <a
-                href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+                href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
                 className="CTA checkout"
               >
                 Quero transformar a educação do meu filho com música
@@ -1173,7 +1173,7 @@ function App() {
         </div>{" "}
         <a
           className="CTA top"
-          href="https://pay.hotmart.com/error?errorMessage=005&checkoutLoadId=CKTID-D90469626F1-1706885279387-6516"
+          href="https://pay.hotmart.com/D90469626F?bid=1708449140830"
         >
           Quero transformar a educação do meu filho com música
         </a>
