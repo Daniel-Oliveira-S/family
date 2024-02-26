@@ -364,7 +364,20 @@
   }
 
   #objectives {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+
+  }
+
+  #objectives img{
+    max-width: 100%;
+  }
+  .objective-text{
+    margin: 0 0 8rem;
   }
 
   #checkout-form {

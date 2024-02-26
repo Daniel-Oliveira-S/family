@@ -832,10 +832,12 @@ main {
   width: 100%;
 }
 
+
 .bonus:nth-child(1) {
   width: 380px;
   margin-top: 1rem;
 }
+
 
 .bonus:nth-child(3) {
   width: 452px;
