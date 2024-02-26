@@ -761,8 +761,9 @@ main {
 }
 
 .topic p {
-  font-size: 0.9rem;
+  font-size:clamp(.8rem, 1vw, 1rem);
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .topic h3 {
