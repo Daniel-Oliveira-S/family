@@ -930,11 +930,11 @@ span {
   z-index: 101;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1280px) {
   #who-content img {
     width: 420px;
     position: absolute;
-    left: 1rem;
+    left: 0rem;
   }
   .ilumination:nth-child(1) {
     position: absolute;

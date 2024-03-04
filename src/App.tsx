@@ -1131,7 +1131,7 @@ function App() {
                 </s>
               </p>
               <p className="sell">
-                12x de {""} <strong>69,70</strong>
+                12x de {""} <strong>69,56</strong>
               </p>
               <p className="cash">
                 ou <strong>R$697,00</strong> à vista
